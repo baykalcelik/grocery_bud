@@ -1,0 +1,59 @@
+
+
+.groItem{
+    width:100%;
+    padding: 0.2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+
+}
+
+
+.groItem:hover{
+    background-color: rgb(241,245,248);
+
+}
+
+.itemName{
+    color:rgb(42, 82, 119);
+    user-select: none;
+    font-size: 1rem;
+}
+
+
+
+.groItemBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    user-select: none;
+
+}
+
+.copeat{
+    color:rgb(236, 128, 128);
+    font-size: 0.8rem;
+    transition: all 0.5s;
+    user-select: none;
+    cursor:pointer;
+}
+
+.copeat:hover{
+    color:rgb(250, 24, 24);
+}
+
+.editle{
+    color:rgb(67, 230, 140);
+    font-size: 0.8rem;
+    transition: all 0.5s;
+    user-select: none;
+    cursor:pointer;
+}
+
+.editle:hover{
+    color:rgb(4, 153, 71);
+}
